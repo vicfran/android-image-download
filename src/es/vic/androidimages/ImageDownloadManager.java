@@ -265,7 +265,7 @@ public class ImageDownloadManager {
 			sampleSize = 5;
 		} else if (heapSize <= 32) {
 			sampleSize = 3;
-		} else {
+		} else if (heapSize <=64) {
 			sampleSize = 2;
 		}
 
